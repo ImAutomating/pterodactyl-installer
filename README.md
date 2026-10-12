@@ -1,5 +1,14 @@
 # :bird: pterodactyl-installer
 
+> **ImAutomating fork (October 2026):** This fork follows upstream installer v1.4.0 and loads its component scripts from this repository. For a fresh Ubuntu 24.04 LTS machine, run:
+>
+> ```bash
+> curl -fsSL https://raw.githubusercontent.com/ImAutomating/pterodactyl-installer/imautomating-v1.4-local-source/install.sh -o pterodactyl-install.sh && sudo bash pterodactyl-install.sh
+> ```
+>
+> Select **2** for Panel + Wings on the same server. Stable Panel v1 is the default; v2 is experimental. Review the installer before running as root. A Panel node and its Wings configuration must still be created in the Panel. This fork is not affiliated with Pterodactyl.
+
+
 [![Shellcheck](https://github.com/pterodactyl-installer/pterodactyl-installer/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/pterodactyl-installer/pterodactyl-installer/actions/workflows/shellcheck.yml)
 [![License: GPL v3](https://img.shields.io/github/license/pterodactyl-installer/pterodactyl-installer)](LICENSE)
 [![Discord](https://img.shields.io/discord/682342331206074373?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://pterodactyl-installer.se/discord)
